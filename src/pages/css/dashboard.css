@@ -1,0 +1,148 @@
+.dashboard-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  .dashboard-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .dashboard-section h2 {
+    font-size: 1.5em;
+    color: #0056b3;
+    margin-bottom: 15px;
+  }
+  .dashboard-button,
+  .upload-button,
+  .form-button {
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .dashboard-button:hover,
+  .upload-button:hover,
+  .form-button:hover {
+    background-color: #005a99;
+  }
+  .delete-button {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .delete-button:hover {
+    background-color: #b02a37;
+  }
+  .dashboard-form input[type="text"],
+  .dashboard-form input[type="file"],
+  .dashboard-form select,
+  .dashboard-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+  }
+  
+  .dashboard-form input[type="text"]:focus,
+  .dashboard-form input[type="file"]:focus,
+  .dashboard-form select:focus,
+  .dashboard-form textarea:focus {
+    border-color: #007acc;
+    outline: none;
+  }
+  
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .dashboard-table th,
+  .dashboard-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .dashboard-table th {
+    background-color: #eaf4fb;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .dashboard-table td {
+    background-color: #ffffff;
+  }
+  .media-element {
+    margin: 10px 0;
+  }
+  
+  .media-element img,
+  .media-element video {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .card {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    color: #333;
+    font-size: 1.2em;
+  }
+  
+  .card p {
+    color: #666;
+    font-size: 0.95em;
+  }
+  
+  .card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .card ul li {
+    margin: 5px 0;
+  }
+  .slider-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  .no-content {
+    font-style: italic;
+    color: #999;
+    text-align: center;
+  }
+  
+  /* .ticker-textarea {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    resize: vertical;
+  } */
+  
